@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>
+            home
+        </title>
+        <link rel="stylesheet" href="{% static 'css/s.css' %}">
+    </head>
+    <body>
+       
+        <div class="hero">
+            <img src="{% static 'imges/home3.jpg' %}" alt="Beautiful Scenery">
+            <div class="navbar">
+                <ins><a href="q.html">Home </a></ins>
+                <a href="#about-us">About Us </a>
+                <a href="#why-this-website"> Why E-book library</a>
+                <a href="">My Laibrary </a> 
+                <a href="">Books  </a>
+                <a href="">Authors  </a>
+                <a href="{% url 'register' %}">Sinup/Login </a>
+            
+            </div>
+        </div>
+        <br>
+        <br>
+            <h2 id="why-this-website">Why E-book library</h2>
+        <div class="section" >
+            
+                <p>An e-book library offers unparalleled convenience, putting a world of knowledge and entertainment right at your fingertips. With all the books you need stored on a single device, you can access them anytime and anywhere whether you are commuting, traveling, or relaxing at home. Designed for readers of all ages, an e-book library offers something for everyone, from children's stories to academic texts and thrilling novels. Plus, it boasts a vast variety of genres and subjects to suit every interest, making it an invaluable resource for lifelong learning and enjoyment.</p> 
+        </div>
+    
+     <h2>About Us</h2>
+        <div class="section" id="about-us">
+            <div><p>Welcome to E-book Laibrary, your go-to destination for free eBooks across a wide variety of genres and topics. Our mission is simple: to make reading accessible, enjoyable, and inclusive for everyone. We believe that books have the power to inspire, educate, and transform lives, and we are committed to removing barriers by providing a diverse collection of eBooks at no cost.</p>
+                <p> Whether you are seeking timeless classics, modern bestsellers, or niche interests, our library offers something for every reader. Our goal is to ignite a love for reading and encourage lifelong learning by putting quality books into the hands of as many people as possible. Explore our collection today and join us in building a world where knowledge and imagination are just a click away.</p>
+            </div>
+        </div>
+       
+    </body>
+</html>
